@@ -27,7 +27,7 @@ export default function Sidebar({
 
       {/* Sidebar Drawer */}
       <aside
-        className={`fixed right-0 top-0 h-full w-64 z-40 bg-gradient-to-br from-indigo-900 to-blue-900 border-r p-4 flex flex-col transform transition-transform duration-300 ease-in-out
+        className={`fixed right-0 top-0 h-full overflow-auto w-64 z-40 bg-gradient-to-br from-indigo-900 to-blue-900 border-r p-4 flex flex-col transform transition-transform duration-300 ease-in-out
         ${
           isOpen ? "-translate-x-0" : "translate-x-full"
         } lg:translate-x-0 lg:static lg:w-1/4`}
